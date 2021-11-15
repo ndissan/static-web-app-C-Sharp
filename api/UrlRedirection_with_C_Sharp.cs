@@ -15,7 +15,7 @@ namespace Company.Function
 
         [FunctionName("UrlRedirection01")]
         public static IActionResult Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] 
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "https://wonderful-mud-06286170f.azurestaticapps.net")] 
             HttpRequest req,
             ILogger log)
         {
